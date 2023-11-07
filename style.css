@@ -10,7 +10,7 @@
 }
 
 body {
-  background : var(--gradient-21);
+  background : var(--gradient-22);
   height: 100vh;
 }
 
@@ -32,30 +32,24 @@ h1 {
 
 /* score: 0,0,1,1 */
 h1:hover {
-  animation: var(--animation-shake-x);
+  animation: var(--animation-pulse-);
 }
 
 h1 a {
-  font-family: "chewy";
-  color: white;
+  font-family: "stardos stencil";
+  color: beige;
   text-decoration: none;
 }
 
-h1 a:hover {
-  color: var(--pink-6);
-}
 
-/* Snarky Ass Comments */
+
 span {
-  font-family: "chewy";
-  font-size: 24px;
-  padding: 12px;
+  font-family: "stardos stencil";
+  font-size: 30px;
+  padding: 15px;
   
   background: rgba(255,255,255,.5);
   border-radius: var(--radius-blob-3);
 }
 
-span:hover {
-  display: inline-block;
-  animation: var(--animation-shake-x);
-}
+

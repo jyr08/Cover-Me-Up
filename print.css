@@ -1,10 +1,11 @@
 /* Print Stylesheet */
 
+
 @media print {
     
     body {
         /* serif font for easier reading */
-        font-family: serif;
+        font-family: serif ;
         /* increase font size */
         font-size: 1.25em;
 }
