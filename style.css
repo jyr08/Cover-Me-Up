@@ -15,8 +15,8 @@
 
 body {
   text-align: center;
-  background : var(--gradient-7);
-  animation: var(--slide-in-up);
+  background : var(--gradient-20);
+  animation: var(--slide-in) up;
 }
 
 
@@ -34,6 +34,10 @@ audio {
 /* score: 0,0,0,1 */
 h1 {
   text-align: center;
+}
+
+h1:hover {
+  animation: var(--animation-pulse);
 }
 
 /* score: 0,0,1,1 */
