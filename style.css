@@ -37,13 +37,10 @@ h1 {
 }
 
 h1 {
-  animation: var(--animation-float);
+  animation: var(--animation-pulse);
+  
 }
 
-/* score: 0,0,1,1 */
-.fade-in-text {
-  animation: fadeIn 5s;
-}
 
 h1 a {
   font-family: "stardom";
@@ -69,8 +66,11 @@ p {
  
 }
 
-p:hover {
-  animation: var(--animation-pulse);
+
+figure:hover {
+  animation: var(--animation-slide-out-up);
+  animation-duration: 120s;
+
 }
 
 
